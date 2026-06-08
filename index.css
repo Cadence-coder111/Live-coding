@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.piggy{
+     display: flex;
+    gap: 10px;
+    margin: 10px 0px 0px 10px;
+    height: 10vh;
+    width: 10vw;
+}
+
+.logo{
+    display: flex;
+}
+
+
+
+.first-section{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.div-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+}
+.div-link a {
+    color: #000;
+    text-decoration: none;
+}
+.div-link:hover {
+    color: #000;
+
+    a {
+        color: gray;
+        
+    }
+}
+
+.div-link button{
+     align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 20px;
+    color: #ffff;
+    word-spacing: 1px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.third-section{
+    margin-top: 60px;
+    display: flex;
+    gap: 70px;
+}
+
+.invest{
+    font-weight: 900;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.finances{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.finances button{
+     align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #185abc;
+    font-size: 20px;
+    color: #fff;
+    word-spacing: 1px;
+    margin-top: 20px;
+    background-color: #185abc;
+    display: flex;
+}
+
+.button button{
+    
+      align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #185abc;
+    font-size: 20px;
+    color: #000;
+    word-spacing: 1px;
+    margin-top: -60px;
+    margin-left: 300px;
+    background-color: #fff;
+}
+
+.image{
+    
+}
